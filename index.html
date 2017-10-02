@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello Ajax</title>
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+</head>
+
+<body background="http://www.intrawallpaper.com/static/images/page-jacksonville-nights-florida-hd-wallpaper-high-quality-nature-wallpapers-for-mobile-phones-wallpaper-hd-download-1024x768-desktop-pc-full-size-3d-images.jpg" >
+    <header>
+        
+            <div class="w3-text-white" style="font-size:90px">the<br>Weather</div>
+        
+        </header>
+    <div class="row panel panel-default">
+    <div class="col-sm-6 panel-body" align="center">
+    <h2>City Name</h2><br><br> 
+    <div class="col-sm-4"></div>
+    <div class="col-sm-6">
+    <select class="form-control" id="city">
+        <option value="Chiang Rai">Chiang Rai</option>
+        <option value="Chiang Mai">Chiang Mai</option>
+        <option value="Nan">Nan</option>
+        <option value="Phayao">Phayao</option>
+        <option value="Roi Et">Roi Et</option>
+        <option value="Sakon Nakhon">Sakon Nakhon</option>
+        <option value="Surin">Surin</option>
+        <option value="Nong Khai">Nong Khai</option>
+        <option value="Nong Bua Lam Phu">Nong Bua Lam Phu</option>
+        <option value="Udon Thani">Udon Thani</option>
+        <option value="Chai Nat">Chai Nat</option>
+        <option value="Krabi">Krabi</option>
+        <option value="Phuket">Phuket</option>
+        <option value="Trang">Trang</option>
+        <option value="Bangkok">Bangkok</option>
+        
+      </select>&nbsp</div>
+    
+    <button id="loadwebapi" class="btn btn-success">Go</button>
+    
+    <p></p></div>
+    <div  class="col-sm-6" align="center" id="wpanel" >
+        <h2>Today Weather</h2>
+    </div>
+
+</div>
+</body>
+</html>
